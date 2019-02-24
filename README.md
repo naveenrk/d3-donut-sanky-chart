@@ -1,3 +1,7 @@
+OutPut screeenshot - 
+https://github.com/naveenrk/d3-donut-sanky-chart/blob/master/d3-donut-sanky-chart.PNG
+
+
 # MyAngularStack
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.3.
