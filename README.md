@@ -1,6 +1,10 @@
-OutPut screeenshot - 
+# OutPut screeenshot - 
 https://github.com/naveenrk/d3-donut-sanky-chart/blob/master/d3-donut-sanky-chart.PNG
 
+# Prerequisite - 
+"d3": "5.7.0",
+"d3-sankey": "^0.7.1",
+"lodash": "^4.17.11"
 
 # MyAngularStack
 
