@@ -1,6 +1,10 @@
 # OutPut screeenshot - 
 https://github.com/naveenrk/d3-donut-sanky-chart/blob/master/d3-donut-sanky-chart.PNG
 
+# Updated
+
+Donut chart - https://github.com/naveenrk/d3-donut-sanky-chart/blob/master/image.png
+
 # Prerequisite - 
 "d3": "5.7.0",
 "d3-sankey": "^0.7.1",
