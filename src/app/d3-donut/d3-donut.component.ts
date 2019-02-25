@@ -5,7 +5,7 @@ import * as _ from 'lodash';
 @Component({
   selector: 'app-d3-donut',
   templateUrl: './d3-donut.component.html',
-  styleUrls: ['./d3-donut.component.css']
+  styleUrls: ['./d3-donut.component.scss']
 })
 export class D3DonutComponent implements OnInit {
 

@@ -1,0 +1,55 @@
+#sankey {
+
+  .node rect {
+    cursor: move;
+    fill-opacity: .9;
+    shape-rendering: crispEdges;
+  }
+
+  .node text {
+    pointer-events: none;
+    text-shadow: 0 1px 0 #fff;
+  }
+
+  .links {
+    .link {
+      fill: none;
+      stroke: #000;
+      stroke-opacity: .2;
+    }
+
+    .link:hover {
+      stroke-opacity: .5;
+    }
+  }
+
+  .node text {
+    font-family: "Helvetica Neue";
+    font-size: 11px;
+  }
+
+
+  .linksankey {
+    fill: none;
+    stroke: #000;
+    stroke-opacity: .6;
+  }
+  
+  .linksankey:hover {
+    stroke-opacity: .9;
+  }
+  
+  div.tooltipsankey {   
+    position: absolute;           
+    text-align: left;           
+    width: 95px;                  
+    height: 40px;                 
+    padding: 4px;             
+    font: 11px sans-serif;        
+    background: silver;   
+    border: 0px;      
+    border-radius: 8px;           
+    pointer-events: none;         
+  }
+  
+}
