@@ -338,12 +338,30 @@ export class D3DonutComponent implements OnInit {
         .data(pie(dataset))
         .enter()
         .append('text')
-        .attr('transform', (d: any) => 'translate(' + arc.centroid(d) + ')')
-        .attr('dy', '.4em')
+        .attr('transform', function (d: any) {
+          const _d = arc.centroid(d);
+          _d[0] *= 1;	// multiply by a constant factor
+          _d[1] *= 1;	// multiply by a constant factor
+          return 'translate(' + _d + ')';
+        })
+        .attr('dy', '.50em')
         .attr('text-anchor', 'middle')
+        .style('text-anchor', 'middle')
         .text((d: any) => {
           return d.data.value;
         });
+
+      svg.append('text')
+        .attr('text-anchor', 'middle')
+        .attr('font-size', '2.5em')
+        .attr('y', 8)
+        .text(totalCount);
+
+        svg.append('text')
+        .attr('text-anchor', 'middle')
+        .attr('font-size', '1.5em')
+        .attr('y', 25)
+        .text('vessel');
 
       const legendRectSize = 20;
       const legendSpacing = 7;
@@ -371,7 +389,7 @@ export class D3DonutComponent implements OnInit {
           return d;
         })
         .attr('fill', '#152935')
-        .attr('font-size', '14px');
+        .attr('font-size', '1.2em');
     };
     setTimeout(restOfTheData, 1000);
   }
