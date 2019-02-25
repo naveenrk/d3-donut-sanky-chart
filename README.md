@@ -1,7 +1,5 @@
-# OutPut screeenshot - 
-https://github.com/naveenrk/d3-donut-sanky-chart/blob/master/d3-donut-sanky-chart.PNG
-
-# Updated
+# Screenshot
+Sanky chart - https://github.com/naveenrk/d3-donut-sanky-chart/blob/master/d3-donut-sanky-chart_updated.PNG
 
 Donut chart - https://github.com/naveenrk/d3-donut-sanky-chart/blob/master/image.png
 
